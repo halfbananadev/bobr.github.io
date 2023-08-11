@@ -18,7 +18,7 @@ tg.sendData("qqq");
 
 let usercard = document.getElementById("usercard");
 
-
+//
 if(user === undefined){
    var e = document.getElementsByTagName('html')[0];
    e.removeChild(document.body);
