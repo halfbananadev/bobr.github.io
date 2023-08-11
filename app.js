@@ -18,8 +18,13 @@ tg.sendData("qqq");
 
 let usercard = document.getElementById("usercard");
 
-let p = document.createElement("p");
 
+if(user === undefined){
+   var e = document.getElementsByTagName('html')[0];
+   e.removeChild(document.body);
+}
+
+let p = document.createElement("p");
 p.innerText = user;//`${tg.initDataUnsafe.user.first_name}
 //${tg.initDataUnsafe.user.last_name}`;
 
