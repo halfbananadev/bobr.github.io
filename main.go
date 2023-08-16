@@ -27,7 +27,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	</head>
 	<body>
 		<div class="App">
-			Welcome to Back4App Containers
+			САНЯ ЛОШОК
 		</div>
 	</body>
 	</html>
