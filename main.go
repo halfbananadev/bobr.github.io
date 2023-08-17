@@ -27,7 +27,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	</head>
 	<body>
 		<div class="App">
-			САНЯ ЛОШОК
+   			<a target="_blank" href="https://vk.com/skarushkin">САНЯ ЛОШОК</a>
 		</div>
 	</body>
 	</html>
