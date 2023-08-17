@@ -10,6 +10,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	<!DOCTYPE html>
 	<html>
 	<head>
+ 		<link rel="stylesheet" href="styles.css">
 		<style>
 		body {
             display: flex;
@@ -27,7 +28,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	</head>
 	<body>
 		<div class="App">
-   			<a target="_blank" href="https://vk.com/skarushkin">САНЯ ЛОШОК</a>
+  		<div id="shadowBox">
+    			<h3 class="rainbow rainbow_text_animated"><a target="_blank" href="https://vk.com/skarushkin">САНЯ ЛОШОК</a></h3>
+		</div>
 		</div>
 	</body>
 	</html>
